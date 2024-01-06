@@ -13,6 +13,20 @@
         <module>core</module>
     </modules>
 
+    <scm>
+        <connection>scm:git:https://github.com/janhenke/lxi4j.git</connection>
+        <developerConnection>scm:git:git@github.com:janhenke/lxi4j.git</developerConnection>
+        <url>https://github.com/janhenke/lxi4j</url>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Jan Henke Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/janhenke/lxi4j</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
