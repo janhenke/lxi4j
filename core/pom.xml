@@ -4,18 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.taujhe</groupId>
-    <artifactId>lxi4j</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <parent>
+        <groupId>de.taujhe</groupId>
+        <artifactId>lxi4j</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
 
-    <packaging>pom</packaging>
-    <modules>
-        <module>core</module>
-    </modules>
+    <artifactId>lxi4j-core</artifactId>
 
     <properties>
-        <maven.compiler.release>17</maven.compiler.release>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
 </project>
